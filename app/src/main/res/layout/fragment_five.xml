@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".five"
+    android:background="@drawable/img_1">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="328dp"
+            android:layout_height="150dp"
+            android:background="@drawable/whitebckg"
+
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="85dp">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="117dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="12.5"
+                android:layout_marginLeft="15"
+                android:src="@drawable/john" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150"
+                android:layout_marginTop="15"
+                android:text="JOHN"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="174dp"
+                android:layout_height="56dp"
+                android:layout_marginLeft="150"
+                android:layout_marginTop="45"
+                android:text="Today Jhon is near the Hermina Pramono Hospital, opposite the COVID-19 Hospital"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150"
+                android:layout_marginTop="105"
+                android:text="15 Jan 2021"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="260"
+                android:layout_marginTop="105"
+                android:text="9.00 AM"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+
+
+        </FrameLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>
